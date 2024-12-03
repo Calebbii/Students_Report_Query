@@ -58,16 +58,3 @@ INSERT INTO Grades (student_id, course_id, grade, module) VALUES
 (3, 101, 88.0, 3),
 (3, 102, 92.0, 3);
 
-
-
---  Running the Code
--- Run the following commands in your terminal to set up and execute the database:
-
--- Step 1: Create and Populate the Database
--- bash
--- Copy code
--- sqlite3 query.db < setup.sql
--- Step 2: Execute the Query
--- bash
--- Copy code
--- sqlite3 query.db < query.sql
